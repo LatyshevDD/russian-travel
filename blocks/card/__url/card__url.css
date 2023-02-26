@@ -1,0 +1,22 @@
+.card__url {
+  display: flex;
+  flex-direction: column;
+  padding-top: 107px;
+  padding-bottom: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .card__url {
+    padding-top: 47px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card__url {
+    padding-bottom: 32px;
+    padding-top: 0;
+    max-width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

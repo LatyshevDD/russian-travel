@@ -1,0 +1,36 @@
+.footer__container {
+  width: 92.5%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.cover__text:hover .cover__gradient{
+  opacity: .8;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__container {
+    width: 90.6%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container {
+    width: 93.8%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer__container {
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .footer__container {
+    width: 90%;
+  }
+}

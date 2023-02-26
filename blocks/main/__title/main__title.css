@@ -1,0 +1,35 @@
+.main__title {
+  margin: 0;
+  padding-bottom: 32px;
+  max-width: 720px;
+  font-family: 'Inter-Black', 'Arial', sans-serif;
+  color: #fff;
+  font-size: 96px;
+  line-height: 1;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 650px) {
+  .main__title {
+    padding-bottom: 32px;
+    max-width: 90%;
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+    .main__title {
+      padding-bottom: 16px;
+      font-size: 43px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  .main__title {
+    padding-bottom: 16px;
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}

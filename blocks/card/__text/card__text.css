@@ -1,0 +1,18 @@
+.card__text {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .card__text {
+    padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card__text {
+    max-width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

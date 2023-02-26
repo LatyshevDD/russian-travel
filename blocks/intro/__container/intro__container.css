@@ -1,0 +1,36 @@
+.intro__container {
+  width: 76.9%;
+  padding-top: 92px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 92px;
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__container {
+    width: 76.9%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__container {
+    width: 90.6%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__container {
+    width: 93.8%;
+    padding-bottom: 88px;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__container {
+    width: 90%;
+    padding-bottom: 64px;
+    padding-top: 64px;
+  }
+}
