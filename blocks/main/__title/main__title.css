@@ -10,11 +10,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-  .main__title {
-    line-height: 1.1;
-  }
-}
+
 
 @media screen and (max-width: 700px) {
   .main__title {
@@ -34,5 +30,6 @@
   .main__title {
     max-width: 288px;
     font-size: 40px;
+    line-height: 44px;
   }
 }

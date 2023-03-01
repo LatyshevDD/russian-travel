@@ -4,6 +4,12 @@
 /* Fonts */
 @import url(../fonts/fonts.css);
 
+/* Body */
+@import url(../blocks/body/body.css);
+
+/* Page */
+@import url(../blocks/page/page.css);
+
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -52,6 +58,7 @@
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__paragraph/card__paragraph.css);
+@import url(../blocks/card/__line-break/card__line-break.css);
 
 /* Cover */
 @import url(../blocks/cover/cover.css);
@@ -66,3 +73,4 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
