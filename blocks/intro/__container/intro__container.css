@@ -7,11 +7,6 @@
   padding-bottom: 92px;
 }
 
-@media screen and (min-width: 1280px) {
-  .intro__container {
-    width: 76.9%;
-  }
-}
 
 @media screen and (max-width: 1024px) {
   .intro__container {

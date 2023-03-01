@@ -1,4 +1,4 @@
-.cards {
+.places__cards {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -8,19 +8,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .cards {
+  .places__cards {
     width: 90.6%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .cards {
+  .places__cards {
     width: 93.8%;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .cards {
+  .places__cards {
     width: 100%;
   }
 }

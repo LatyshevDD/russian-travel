@@ -3,7 +3,7 @@
   font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.63;
   color: #fff;
 }
 
@@ -14,6 +14,16 @@
 @media screen and (max-width: 768px) {
   .card__paragraph {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card__paragraph {
+    max-width: 280px;
+  }
+
+  .card:not(.card:first-child) .card__paragraph {
+    line-height: 25px;
   }
 }
 
