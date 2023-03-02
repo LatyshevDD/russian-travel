@@ -22,14 +22,13 @@
 @media screen and (max-width: 435px) {
     .main__title {
       padding-bottom: 16px;
-      font-size: 43px;
+      font-size: 40px;
+      line-height: 44px;
     }
 }
 
 @media screen and (max-width: 320px) {
   .main__title {
     max-width: 288px;
-    font-size: 40px;
-    line-height: 44px;
   }
 }
