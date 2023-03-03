@@ -14,18 +14,14 @@
 @media screen and (max-width: 768px) {
   .footer__container {
     width: 93.7%;
+    flex-wrap: wrap;
   }
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 505px) {
   .footer__container {
     flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .footer__container {
     width: 90%;
   }
 }
